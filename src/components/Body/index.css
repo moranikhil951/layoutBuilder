@@ -1,0 +1,98 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .body-container {
+    display: flex;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .body-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .right-con {
+    background-color: #e2e8f0;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    margin: 10px;
+  }
+  .left-con {
+    background-color: #e2e8f0;
+    margin-top: 10px;
+    padding: 20px;
+    height: 45vh;
+    width: 30%;
+    margin-bottom: 10px;
+    margin: 10px;
+  }
+  .box-con {
+    border: 2px solid #64748b;
+    height: 10vh;
+    width: 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .right-con {
+    background-color: #e2e8f0;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+  }
+  .left-con {
+    background-color: #e2e8f0;
+    margin-top: 10px;
+    padding: 20px;
+    height: 45vh;
+    width: 70%;
+    margin-bottom: 10px;
+  }
+
+  .box-con {
+    border: 2px solid #64748b;
+    height: 10vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+}
+
+.heading-left {
+  color: #64748b;
+  font-size: 20px;
+}
+.left-para {
+  color: #64748b;
+  font-size: 15px;
+}
+
+.responsive-con {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.context-con {
+  margin: 40px;
+}

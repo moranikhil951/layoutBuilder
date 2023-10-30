@@ -1,0 +1,13 @@
+/* Write your CSS here */
+
+.unordered-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.ConfigurationController-container {
+  background-color: #475569;
+  max-width: 1550px;
+  width: 100%;
+  padding: 20px;
+}
